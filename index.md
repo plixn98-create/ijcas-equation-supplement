@@ -83,7 +83,7 @@ $$
 In the actual plant, $\dot{x}$, $\dot{\theta}_a$, and $\dot{\alpha}$ obtained using Eq. (14) can be converted to the form for $\dot{\phi}_x$ and $\dot{\theta}$ as follows:
 
 $$
-\dot{k} = k_{dl} \dot{\phi}_{xl} + k_{dr} \dot{\phi}_{xr} = k_{dx} \dot{\phi}_{x} + k_{d\theta} \dot{\theta} = (k_{dl}+k_{dr}) \dot{\phi}_x + \left( -\tfrac{W}{2R} k_{dl}+\tfrac{W}{2R} k_{dr} \right) \dot{\theta}, k \in \{x, \theta_a, \alpha \}
+\dot{k} = k_{dl} \dot{\phi}_{xl} + k_{dr} \dot{\phi}_{xr} = k_{dx} \dot{\phi}_{x} + k_{d\theta} \dot{\theta} = (k_{dl}+k_{dr}) \dot{\phi}_x + \left( -\frac{W}{2R} k_{dl}+\frac{W}{2R} k_{dr} \right) \dot{\theta} \qquad \text{for } k \in \{x, \theta_a, \alpha \}  
 $$
 
 $$
