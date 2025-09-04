@@ -2,8 +2,6 @@
 title: Appendix A. 
 ---
 
-<!-- MathJax -->
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 # Introduction
 
@@ -13,7 +11,7 @@ This page provides the detailed derivations of the Lagrange equation correspondi
 
 ## Lagrange Equation
 
-In Eq. (22) of the paper, the Lagrange equation is expressed in the form $\mathbf{M}\ddot{\mathbf{q}} + \mathbf{C} + \mathbf{G} = \mathbf{B}\mathbf{u}$:
+In Eq. (22) of the paper, the Lagrange equation is expressed in the form $$\mathbf{M}\,\ddot{\mathbf{q}} + \mathbf{C} + \mathbf{G} = \mathbf{B}\,\mathbf{u}$$:
 
 $$
 \begin{bmatrix}
@@ -23,25 +21,35 @@ M_{21} & M_{22} & 0 & 0 \\
 M_{41} & 0 & 0 & M_{44}
 \end{bmatrix}
 \begin{bmatrix}
-\ddot{\phi_x} \\ \ddot{\phi_y} \\ \ddot{\theta} \\ \ddot{\psi}
+\ddot{\phi_x} \\ 
+\ddot{\phi_y} \\ 
+\ddot{\theta} \\ 
+\ddot{\psi}
 \end{bmatrix}
 +
 \begin{bmatrix}
-C_1 \\ 0 \\ C_3 \\ C_4
+C_1 \\ 
+0 \\ 
+C_3 \\ 
+C_4
 \end{bmatrix}
 +
 \begin{bmatrix}
-0 \\ 0 \\ 0 \\ G_4
+0 \\ 
+0 \\ 
+0 \\ 
+G_4
 \end{bmatrix}
-=
-\begin{bmatrix}
+= \begin{bmatrix}
 \frac{1}{2} & \frac{1}{2} & 0 \\
 0 & 0 & 1 \\
 -\frac{R}{W} & \frac{R}{W} & 0 \\
 -\frac{1}{2} & -\frac{1}{2} & 0
 \end{bmatrix}
 \begin{bmatrix}
-\tau_{xl} \\ \tau_{xr} \\ \tau_{y}
+\tau_{xl} \\ 
+\tau_{xr} \\ 
+\tau_{y}
 \end{bmatrix}
 $$
 
