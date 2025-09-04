@@ -3,6 +3,23 @@ title: Appendix A.
 ---
 
 
+<script>
+window.MathJax = {
+  tex: {
+    packages: {'[+]': ['boldsymbol']},   // add boldsymbol package
+    macros: {
+      bm: ["{\\boldsymbol{#1}}", 1]      // optional: \bm{...} alias
+    }
+  }
+};
+</script>
+
+<!-- MathJax loader -->
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+
 # Introduction
 
 This page provides the detailed derivations of the Lagrange equation corresponding to Eq. (22) for the **nominal** and **actual** plant presented in the paper.
@@ -11,7 +28,7 @@ This page provides the detailed derivations of the Lagrange equation correspondi
 
 ## Lagrange Equation
 
-In Eq. (22) of the paper, the Lagrange equation is expressed in the form $$\mathbf{M}\,\ddot{\mathbf{q}} + \mathbf{C} + \mathbf{G} = \mathbf{B}\,\mathbf{u}$$:
+In Eq. (22) of the paper, the Lagrange equation is expressed in the form **$$\mathbf{M}\ddot{\mathbf{q}} + \mathbf{C} + \mathbf{G} = \mathbf{B}\mathbf{u}$$**:
 
 $$
 \begin{bmatrix}
