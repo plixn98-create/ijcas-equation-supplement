@@ -1,4 +1,7 @@
 markdown: kramdown
+mathjax: 
+  tex: 
+    packages: {'[+]': ['boldsymbol']}
 kramdown:
   input: GFM         # GitHub Flavored Markdown
   math_engine: mathjax
